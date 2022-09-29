@@ -1,5 +1,6 @@
 body {
   font-family: "ABCRepro-Medium", Helvetica, Arial, sans-serif;
+  background-color: rgb(228, 228, 228);
 }
 
 .main {
@@ -31,4 +32,14 @@ body {
 
 .list__item__body {
   display: none;
+}
+
+/* CORRECTION */
+
+.list__item__header:hover {
+  color: rgb(255, 68, 0);
+}
+
+.list__item__body.show {
+  display: block;
 }
